@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3{
+position: absolute;
+width: 126px;
+height: 53px;
+left: 337px;
+top: 90px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 53px;
+letter-spacing: 0.1em;
+color: #E50914;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 414px;
+    height: 76px;
+    left: 193px;
+    top: 257px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 414px;
+    height: 76px;
+    left: 193px;
+    top: 349px;
+}
+
+.password small {
+font-family: 'Lato';
+font-style: normal;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 0.25px;
+color: #E50914;
+}
+
+input{
+    width: 82%;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 24px;
+    gap: 8px;
+    position: absolute;
+    width: 300px;
+    height: 41px;
+    left: 193px;
+    top: 480px;
+    background: #E50914;
+    border-radius: 8px;
+}
+
+.login button{
+    color: #fff;
+    background: #E50914;
+    border:none;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.dont{
+    position: absolute;
+    width: 212px;
+    height: 20px;
+    left: calc(29% - 212px/2);
+    bottom: 70px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.dont a{
+    color:#0000ff;
+}
+
+.small-forget{
+    position: absolute;
+    width: 113px;
+    height: 20px;
+    left: 193px;
+    top: 430px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #E50914;
+}
